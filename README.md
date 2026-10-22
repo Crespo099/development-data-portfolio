@@ -73,15 +73,14 @@ data/processed/             Generated outputs (Git-ignored)
 1. Run the setup, pipeline, and tests above; inspect the generated CSV and
    summary before describing findings.
 2. Review `DATA_SOURCES.md` and retain attribution when sharing derived results.
-3. Create an empty GitHub repository, then from this folder run the following
-   after replacing the placeholder with your GitHub username:
+3. To publish future changes from this folder, review the staged file list and
+   push a commit to the configured `origin` remote:
 
    ```powershell
-   git branch -M main
-   git remote add origin https://github.com/<your-user>/development-data-portfolio.git
-   git add .
-   git commit -m "Build WDI analytics pipeline"
-   git push -u origin main
+   git add -A
+   git status --short
+   git commit -m "Describe your change"
+   git push
    ```
 
    `.venv/` and generated data are ignored. Review `git status` before committing.

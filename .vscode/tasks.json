@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run WDI pipeline",
+      "type": "shell",
+      "command": "python -m development_portfolio.cli --start-year 2000 --end-year 2024",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run tests",
+      "type": "shell",
+      "command": "python -m pytest",
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

@@ -11,6 +11,11 @@ year with observations? Correlation is not evidence of causation. The dataset
 contains economies and territories as classified by the World Bank, not only
 sovereign states.
 
+## Other Portfolio Projects
+
+- [Home Network Security Monitor](projects/home-network-security-monitor/README.md) - Python CLI for consent-gated inventory checks on an authorized private IPv4 lab network, with safety limits and a networking lab guide.
+- [Secure Web Activity Monitor demo](https://secure-web-activity-monitor-crespo099.onrender.com) | [source](https://github.com/Crespo099/Python-Security-monitoring-platform)
+
 ## Project Status
 
 The first reproducible slice is in place: live API ingestion, validation,

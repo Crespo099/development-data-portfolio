@@ -13,7 +13,7 @@ sovereign states.
 
 ## Other Portfolio Projects
 
-- [Home Network Security Monitor](projects/home-network-security-monitor/README.md) - Python CLI for consent-gated inventory checks on an authorized private IPv4 lab network, with safety limits and a networking lab guide.
+- [Home Network Security Monitor](https://github.com/Crespo099/home-network-security-monitor) - Python CLI for consent-gated inventory checks on an authorized private IPv4 lab network, with safety limits and a networking lab guide.
 - [Secure Web Activity Monitor demo](https://secure-web-activity-monitor-crespo099.onrender.com) | [source](https://github.com/Crespo099/Python-Security-monitoring-platform)
 
 ## Project Status
